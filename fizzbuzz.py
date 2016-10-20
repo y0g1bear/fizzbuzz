@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: john
+Credit: Andy 
 
 Assignment:
 
@@ -44,3 +44,27 @@ Fizz
 Fizz
 Buzz
 """
+a = int(input("How mant numbers shall we print? "))
+b = int(input("For multiples of what number shall we print 'Fizz'? "))
+c = int(input("For multiples of what number shall we print 'Buzz'? "))
+
+for i in range (1 ,a+1):
+    if (i%b == 0 and i%c == 0):
+        i = "FizzBuzz"
+    elif (i%b == 0):
+        i = "Fizz"
+    elif (i%c == 0):
+        i = "Buzz"
+    print(i)
+        
+    
+
+
+
+
+
+
+
+
+
+
